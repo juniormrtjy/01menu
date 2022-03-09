@@ -30,3 +30,11 @@ for (const alla of pickLinks) {
     pickNav.classList.remove('show')
   })
 }
+// CLEAR MENU
+var clearAll = document.querySelectorAll('.clearMenu')
+
+for (const clear of clearAll) {
+  clear.addEventListener('click', function () {
+    pickNav.classList.remove('show')
+  })
+}
